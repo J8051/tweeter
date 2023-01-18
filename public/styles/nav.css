@@ -1,4 +1,5 @@
 nav {
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -15,7 +16,7 @@ nav {
  }
 
  i.fa-solid {
-display: flex;
-justify-content: center;
-color: red;
+  display: flex;
+  justify-content: center;
+  color: red;
  }
