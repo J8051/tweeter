@@ -24,7 +24,15 @@ body {
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
 body {
+  display: flex;
+  flex-direction: column;
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+main {
+  width: 90%;
+  align-self: center;
+  color: #545149;
 }
 
 
