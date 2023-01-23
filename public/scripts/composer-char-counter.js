@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  $("#tweet-text").on("keyup", function(event) { 
+  $("#tweet-text").on("input", function(event) { 
     
     let inputLength = $(this).val().length;
 
