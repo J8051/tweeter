@@ -49,12 +49,12 @@
  padding-left: 12px;
 }
 
-i.fa-solid{
+footer div i.fa-solid{
   padding: 2px;
   color: rgb(38, 38, 137);
   font-size: 24px;
 }
 
-i.fa-solid:hover{
+footer div i.fa-solid:hover{
   color: rgb(216, 188, 78);
 }
