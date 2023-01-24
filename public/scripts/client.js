@@ -83,7 +83,7 @@ $(document).ready(function () {
     for (let tweet of $tweets) { 
       let $tweetElement = createTweetElement(tweet)
       $('#tweet-container').append($tweetElement);
-      console.log($tweetElement); 
+      // console.log($tweetElement); 
     }
 
   }; 
