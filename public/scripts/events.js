@@ -1,7 +1,7 @@
 $(document).ready(function() {
-  
+
   $(".new-tweet form").submit(function(event) {
-    event.preventDefault(); 
+    event.preventDefault();
 
     $.ajax({
       method: "POST",
@@ -15,17 +15,17 @@ $(document).ready(function() {
           renderTweets(newTweet);
         });
       }
-    }); 
+    });
 
   });
 
 
-  
-
- 
 
 
-  
+
+
+
+
 
 
 

@@ -21,7 +21,7 @@ const createTweetElement = function(tweetObj) {
   </div>
   
   <footer class="tweet-footer">
-    <p>${tweetObj.created_at}</p>
+    <p>${timeago.format(tweetObj.created_at)}</p>
   
     <div>
       <i class="fa-solid fa-flag"></i>
@@ -42,7 +42,6 @@ const renderTweets = function($tweets) {
   for (let tweet of $tweets) {
     let $tweetElement = createTweetElement(tweet);
     $('#tweet-container').prepend($tweetElement);
-    // console.log($tweetElement); 
   }
 
 };
@@ -53,8 +52,6 @@ $(document).ready(function() {
     $.get("http://localhost:8080/tweets", (data) => {
       renderTweets(data);
     });
-
-
   };
   loadTweets();
 }); 
