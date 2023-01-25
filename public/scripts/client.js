@@ -3,6 +3,13 @@
  * jQuery is already loaded
  * Reminder: Use (and do all your DOM work in) jQuery's document ready function
  */
+
+const escape = function (str) {
+  let div = document.createElement("div");
+  div.appendChild(document.createTextNode(str));
+  return div.innerHTML;
+};
+
 const createTweetElement = function(tweetObj) {
   const $tweet = $(`
   <article class="tweet">
@@ -17,7 +24,7 @@ const createTweetElement = function(tweetObj) {
   </header>
   
   <div class="tweet-body">
-  <p> ${tweetObj["content"].text}</p>
+  <p> ${escape(tweetObj["content"].text)}</p>
   </div>
   
   <footer class="tweet-footer">
