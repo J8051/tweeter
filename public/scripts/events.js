@@ -13,7 +13,8 @@ $(document).ready(function() {
         url: "/tweets",
         type: "application/json",
         data: $(this).serialize(),
-        success: function() {
+        success: function() { 
+          $(".counter").text(140).css("color", "black");   
           $("textarea").val("");
           $.get("http://localhost:8080/tweets", data => {
             const newTweet = [data.slice(-1).pop()];
