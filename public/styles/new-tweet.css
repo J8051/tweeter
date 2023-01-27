@@ -47,3 +47,19 @@ button{
   font-family: 'Bungee', cursive, sans-serif;
   padding: 5px;
 }
+
+.errorOne { 
+  border: 2px red solid;
+  color: red;
+  display: none;
+  width: 40%;
+  text-align: center;
+}
+
+.errorTwo{
+  border: 2px red solid;
+  color: red;
+  display: none;
+  width: 50%;
+  text-align: center;
+}

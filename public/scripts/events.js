@@ -4,10 +4,14 @@ $(document).ready(function() {
     event.preventDefault();
 
     if (!$("textarea").val()) {
-      alert("Oops! Your tweet is empty. Please add some text");
+      $(".errorOne").slideDown();      
+      $(".errorTwo").slideUp();
     } else if ($("textarea").val().length > 140) {
-      alert("Oops! Your tweet is too long. The character limit is 140");
+      $(".errorOne").slideUp();
+      $(".errorTwo").slideDown();
     } else {
+      $(".errorTwo").slideUp();
+      $(".errorOne").slideUp();
       $.ajax({
         method: "POST",
         url: "/tweets",

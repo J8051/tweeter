@@ -94,6 +94,12 @@
 
       <h2>Compose Tweet</h2>
       <!-- this section contains individual tweets  -->
+      
+      <span >
+      <p class="errorOne"><i class="fa-solid fa-triangle-exclamation"></i>  A tweet must have at least 1 character</p>
+      <p class="errorTwo"><i class="fa-solid fa-triangle-exclamation"></i>Maximum Tweet length is 140 characters</p>
+      </span>
+      
       <form action="/tweets" method="post">
         <label for="tweet-text">What are you humming about?</label>
         <textarea name="text" id="tweet-text"></textarea>
