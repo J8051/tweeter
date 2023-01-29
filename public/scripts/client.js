@@ -39,7 +39,7 @@ const createTweetElement = function(tweetObj) {
   </footer>
   
   </article>
-
+  
   `);
   return $tweet;
 };

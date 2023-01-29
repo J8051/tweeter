@@ -1,16 +1,14 @@
-#tweet-container{
+.tweet{
+  display: flex;
+  flex-direction: column;
   background-color: transparent;
   border: solid black 5px;
   padding: 16px;
   margin-top: 18px;
 }
-#tweet-container:hover{
-  box-shadow: 5px 5px #888888;
-}
 
-.tweet{
-  display: flex;
-  flex-direction: column;
+.tweet:hover{
+  box-shadow: 5px 5px #888888;
 }
 
  .tweet-header{
