@@ -1,10 +1,24 @@
 header {
   display: flex;
+  flex: 1 1 50%;
   flex-direction: column;
   align-items: center;
-  justify-content: end;
   height: 520px;
-  width: 100%;
   background-image: url("../images/blu-stripes.png");
   background-color: #ffb30f;
+  justify-content: center;
+}
+
+
+@media (max-width:600px){
+  header{
+    width: 100%; 
+    justify-content: end;
+    flex-direction: column;
+  }
+}
+
+div h2{
+  display: flex;
+  justify-content: center;
 }

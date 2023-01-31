@@ -6,7 +6,10 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -23,17 +26,31 @@ body {
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+ 
 body {
   display: flex;
-  flex-direction: column;
+
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+@media (max-width:600px) {
+  body {
+    flex-direction: column;
+  }
+
+  .content {
+    flex-direction: column;
+  }
 }
 
 main {
   width: 90%;
   align-self: center;
   color: #545149;
+  flex: 1 1 50%;
 }
 
-
- 
+.content {
+  display: flex;
+  margin-top: 120px;
+}
