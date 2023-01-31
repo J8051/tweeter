@@ -4,21 +4,31 @@ header {
   flex-direction: column;
   align-items: center;
   height: 520px;
-  background-image: url("../images/blu-stripes.png");
-  background-color: #ffb30f;
   justify-content: center;
 }
 
+.img-and-name{
+  background-image: url("../images/blu-stripes.png");
+  background-color: #ffb30f;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 5%;
+}
 
 @media (max-width:600px){
   header{
+    margin-top: 120px;
     width: 100%; 
     justify-content: end;
     flex-direction: column;
   }
-}
-
-div h2{
-  display: flex;
-  justify-content: center;
+  .content{
+    margin: 0px;
+  }
+  .img-and-name{
+    width: 100%;
+  }
 }
