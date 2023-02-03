@@ -7,8 +7,7 @@ nav {
   color: #FFFFFF;
   height: 120px;
   width: 100%;
-  padding-right: 1.5em;
-  padding-left: 1.5em;
+  padding: 1.5em;  
 
 }
 .content{
@@ -17,7 +16,7 @@ nav {
   margin-right: 5%;
 }
 
-@media (max-width:600px) {
+@media (max-width:1024px) {
   nav {
     background-color: #ffb30f;
     background-image: url("../images/blu-stripes.png");

@@ -8,22 +8,32 @@ header {
 }
 
 .img-and-name{
+  padding-top: 15px;
+  padding-bottom: 15px;
   background-image: url("../images/blu-stripes.png");
   background-color: #ffb30f;
-  width: 90%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-right: 5%;
+  align-self: center;
+}
+.img-and-name img{
+  padding: 10px;
 }
 
-@media (max-width:600px){
+h2{
+  padding: 0px;
+}
+
+@media (max-width:1024px){
   header{
     margin-top: 120px;
     width: 100%; 
     justify-content: end;
     flex-direction: column;
+    height: 520px;
   }
   .content{
     margin: 0px;

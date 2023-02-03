@@ -33,7 +33,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-@media (max-width:600px) {
+@media (max-width:1024px) {
   body {
     flex-direction: column;
   }

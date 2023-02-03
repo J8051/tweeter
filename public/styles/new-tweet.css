@@ -52,7 +52,7 @@ button{
   border: 2px red solid;
   color: red;
   display: none;
-  width: 40%;
+  width: 100%;
   text-align: center;
 }
 
@@ -60,6 +60,6 @@ button{
   border: 2px red solid;
   color: red;
   display: none;
-  width: 50%;
+  width: 100%;
   text-align: center;
 }
