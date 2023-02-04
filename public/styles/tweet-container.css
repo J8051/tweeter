@@ -1,4 +1,4 @@
-.tweet{
+.tweet {
   display: flex;
   flex-direction: column;
   background-color: transparent;
@@ -7,11 +7,11 @@
   margin-top: 18px;
 }
 
-.tweet:hover{
+.tweet:hover {
   box-shadow: 5px 5px #888888;
 }
 
- .tweet-header{
+.tweet-header {
   justify-content: space-between;
   height: 60px;
   font-family: 'Source Sans Pro', sans-serif;
@@ -20,39 +20,42 @@
   background-color: transparent;
   background-image: none;
 }
-.tweet-header>span{
+
+.tweet-header>span {
   color: silver;
 }
 
 
-.tweet-body{
+.tweet-body {
   display: flex;
-  border-bottom: solid black 4px ;
+  border-bottom: solid black 4px;
 }
-.tweet-body>p{
+
+.tweet-body>p {
   padding-left: 12px;
 }
 
-.tweet-footer{
+.tweet-footer {
   display: flex;
   justify-content: space-between;
   font-size: 16px;
 }
-.tweet-footer>div{
+
+.tweet-footer>div {
   height: 5px;
   display: flex;
 }
 
-.tweet-footer>p{
- padding-left: 12px;
+.tweet-footer>p {
+  padding-left: 12px;
 }
 
-footer div i.fa-solid{
+footer div i.fa-solid {
   padding: 2px;
   color: rgb(38, 38, 137);
   font-size: 24px;
 }
 
-footer div i.fa-solid:hover{
+footer div i.fa-solid:hover {
   color: rgb(216, 188, 78);
 }
